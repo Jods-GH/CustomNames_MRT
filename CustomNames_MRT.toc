@@ -6,9 +6,9 @@
 ## X-Curse-Project-ID: 
 ## X-Wago-ID: 
 ## X-WoWI-ID: 
-## RequiredDeps: Method Raid Tools
+## RequiredDeps: MRT, CustomNames
 
 #Libs
 embeds.xml
 
-CustomNames_ElvUI.lua
+CustomNames_MRT.lua
