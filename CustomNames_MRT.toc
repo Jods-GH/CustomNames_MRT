@@ -3,9 +3,9 @@
 ## Version: @project-version@
 ## Notes: Adds MRT support for CustomNames
 ## Author: Jods
-## X-Curse-Project-ID: 
-## X-Wago-ID: 
-## X-WoWI-ID: 
+## X-Curse-Project-ID: 881888
+## X-Wago-ID:  Q6aERa6W
+## X-WoWI-ID: 26601
 ## RequiredDeps: MRT, CustomNames
 
 #Libs
