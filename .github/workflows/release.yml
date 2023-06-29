@@ -54,6 +54,7 @@ jobs:
       #using Discord webhook to send release information
       - name: Discord Webhook Action
         uses: tsickert/discord-webhook@v5.3.0
+        if: success() # only execute if the previous step (packaging) was successful
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           embed-title: ${{ env.MESSAGE }}
