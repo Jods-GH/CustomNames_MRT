@@ -16,6 +16,7 @@ GMRT.F:RegisterCallback("RaidCooldowns_Bar_TextName", RaidCooldowns_Bar_TextName
 
 local function Note_UpdateText(eventName,noteFrame)
     local text = noteFrame.text:GetText()
+	if not text then return end
 	local words = {}
 	for  colorCode, word in text:gmatch("|c(%x%x%x%x%x%x%x%x)(.-)|r") do -- match all color coded phrases
 		if not words[word] then
