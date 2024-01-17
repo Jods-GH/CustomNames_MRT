@@ -1,4 +1,4 @@
-## Interface: 100200
+## Interface: 100205
 ## Title: CustomNames_MRT
 ## Version: @project-version@
 ## Notes: Adds MRT support for CustomNames
