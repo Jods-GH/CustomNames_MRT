@@ -1,4 +1,4 @@
-## Interface: 110205, 110207, 120000
+## Interface: 110207, 120000
 ## Title: CustomNames_MRT
 ## Version: @project-version@
 ## Notes: Adds MRT support for CustomNames
